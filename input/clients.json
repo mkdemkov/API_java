@@ -1,0 +1,34 @@
+{
+  "clients": [
+    {
+      "name": "Mikhail",
+      "money": 150,
+      "order": [
+      ]
+    },
+    {
+      "name": "Grigoriy",
+      "money": 10000,
+      "order": [
+      ]
+    },
+    {
+      "name": "Van",
+      "money": 300,
+      "order": [
+      ]
+    },
+    {
+      "name": "Billy",
+      "money": 2150,
+      "order": [
+      ]
+    },
+    {
+      "name": "Dickhead",
+      "money": 500,
+      "order": [
+      ]
+    }
+  ]
+}
