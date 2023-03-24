@@ -6,6 +6,7 @@ import java.util.concurrent.Executors;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("HAHAA");
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         Supervisor supervisor = new Supervisor();
         String pathToClients = "input/clients.json"; // путь до json с клиентами кафе
