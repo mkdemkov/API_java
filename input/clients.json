@@ -1,34 +1,48 @@
-{
-  "clients": [
-    {
-      "name": "Mikhail",
-      "money": 150,
-      "order": [
-      ]
-    },
-    {
-      "name": "Grigoriy",
-      "money": 10000,
-      "order": [
-      ]
-    },
-    {
-      "name": "Van",
-      "money": 300,
-      "order": [
-      ]
-    },
-    {
-      "name": "Billy",
-      "money": 2150,
-      "order": [
-      ]
-    },
-    {
-      "name": "Dickhead",
-      "money": 500,
-      "order": [
-      ]
-    }
-  ]
-}
+[
+  {
+    "name": "Mikhail",
+    "money": 1500,
+    "order": [
+      0,
+      4,
+      9,
+      16
+    ]
+  },
+  {
+    "name": "Grigoriy",
+    "money": 10000,
+    "order": [
+      2,
+      6,
+      13
+    ]
+  },
+  {
+    "name": "Van",
+    "money": 3000,
+    "order": [
+      0,
+      4,
+      7,
+      11,
+      14
+    ]
+  },
+  {
+    "name": "Billy",
+    "money": 2150,
+    "order": [
+      1,
+      5,
+      12
+    ]
+  },
+  {
+    "name": "Dickhead",
+    "money": 500,
+    "order": [
+      12
+    ]
+  }
+]

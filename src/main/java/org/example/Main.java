@@ -8,9 +8,11 @@ public class Main {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         Supervisor supervisor = new Supervisor();
-        String[] names = new String[] {"Misha", "Semen", "Bagda", "Akta", "Karpov"};
+        String pathToClients = "input/clients.json"; // путь до json с клиентами кафе
+        JsonReader jsonReader = new JsonReader(pathToClients);
+        Client[] clients = jsonReader.parseClientsIntoArray();
         for (int i = 0; i < 5; ++i) {
-            Client client = new Client(names[i]);
+            Client client = clients[i];
             executorService.submit(client);
             supervisor.addClient(client);
         }

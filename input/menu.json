@@ -1,112 +1,104 @@
-{
-  "menu": [
-    {
-      "food": [
-        {
-          "dish_id": 0,
-          "dish_name": "Салат",
-          "dish_cost": 50,
-          "prep_time": 15
-        },
-        {
-          "dish_id": 1,
-          "dish_name": "Курица",
-          "dish_cost": 100,
-          "prep_time": 25
-        },
-        {
-          "dish_id": 2,
-          "dish_name": "Индейка",
-          "dish_cost": 100,
-          "prep_time": 25
-        },
-        {
-          "dish_id": 3,
-          "dish_name": "Свинина",
-          "dish_cost": 100,
-          "prep_time": 25
-        },
-        {
-          "dish_id": 4,
-          "dish_name": "Баранина",
-          "dish_cost": 130,
-          "prep_time": 40
-        },
-        {
-          "dish_id": 5,
-          "dish_name": "Котлета по киевски",
-          "dish_cost": 70,
-          "prep_time": 15
-        },
-        {
-          "dish_id": 6,
-          "dish_name": "Пицца маргарита",
-          "dish_cost": 150,
-          "prep_time": 30
-        },
-        {
-          "dish_id": 7,
-          "dish_name": "Пицца пепперони",
-          "dish_cost": 150,
-          "prep_time": 30
-        },
-        {
-          "dish_id": 8,
-          "dish_name": "Пицца с грибами",
-          "dish_cost": 150,
-          "prep_time": 30
-        },
-        {
-          "dish_id": 9,
-          "dish_name": "Мороженое клубничное",
-          "dish_cost": 70,
-          "prep_time": 5
-        },
-        {
-          "dish_id": 10,
-          "dish_name": "Мороженое ванильное",
-          "dish_cost": 70,
-          "prep_time": 5
-        },
-        {
-          "dish_id": 11,
-          "dish_name": "Мороженое шоколадное",
-          "dish_cost": 70,
-          "prep_time": 5
-        }
-      ],
-      "drinks": [
-        {
-          "drink_id": 0,
-          "drink_name": "Вода",
-          "drink_cost": 30,
-          "prep_time": 1
-        },
-        {
-          "drink_id": 1,
-          "drink_name": "Кола",
-          "drink_cost": 60,
-          "prep_time": 1
-        },
-        {
-          "drink_id": 2,
-          "drink_name": "Чай черный",
-          "drink_cost": 80,
-          "prep_time": 5
-        },
-        {
-          "drink_id": 3,
-          "drink_name": "Чай зеленый",
-          "drink_cost": 70,
-          "prep_time": 8
-        },
-        {
-          "drink_id": 4,
-          "drink_name": "CUMпот",
-          "drink_cost": 60,
-          "prep_time": 3
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "dish_id": 0,
+    "dish_name": "Салат",
+    "dish_cost": 50,
+    "prep_time": 15
+  },
+  {
+    "dish_id": 1,
+    "dish_name": "Курица",
+    "dish_cost": 100,
+    "prep_time": 25
+  },
+  {
+    "dish_id": 2,
+    "dish_name": "Индейка",
+    "dish_cost": 100,
+    "prep_time": 25
+  },
+  {
+    "dish_id": 3,
+    "dish_name": "Свинина",
+    "dish_cost": 100,
+    "prep_time": 25
+  },
+  {
+    "dish_id": 4,
+    "dish_name": "Баранина",
+    "dish_cost": 130,
+    "prep_time": 40
+  },
+  {
+    "dish_id": 5,
+    "dish_name": "Котлета по киевски",
+    "dish_cost": 70,
+    "prep_time": 15
+  },
+  {
+    "dish_id": 6,
+    "dish_name": "Пицца маргарита",
+    "dish_cost": 150,
+    "prep_time": 30
+  },
+  {
+    "dish_id": 7,
+    "dish_name": "Пицца пепперони",
+    "dish_cost": 150,
+    "prep_time": 30
+  },
+  {
+    "dish_id": 8,
+    "dish_name": "Пицца с грибами",
+    "dish_cost": 150,
+    "prep_time": 30
+  },
+  {
+    "dish_id": 9,
+    "dish_name": "Мороженое клубничное",
+    "dish_cost": 70,
+    "prep_time": 5
+  },
+  {
+    "dish_id": 10,
+    "dish_name": "Мороженое ванильное",
+    "dish_cost": 70,
+    "prep_time": 5
+  },
+  {
+    "dish_id": 11,
+    "dish_name": "Мороженое шоколадное",
+    "dish_cost": 70,
+    "prep_time": 5
+  },
+  {
+    "dish_id": 12,
+    "dish_name": "Вода",
+    "dish_cost": 30,
+    "prep_time": 1
+  },
+  {
+    "dish_id": 13,
+    "dish_name": "Кола",
+    "dish_cost": 60,
+    "prep_time": 1
+  },
+  {
+    "dish_id": 14,
+    "dish_name": "Чай черный",
+    "dish_cost": 80,
+    "prep_time": 5
+  },
+  {
+    "dish_id": 15,
+    "dish_name": "Чай зеленый",
+    "dish_cost": 70,
+    "prep_time": 8
+  },
+  {
+    "dish_id": 16,
+    "dish_name": "CUMпот",
+    "dish_cost": 60,
+    "prep_time": 3
+  }
+]
