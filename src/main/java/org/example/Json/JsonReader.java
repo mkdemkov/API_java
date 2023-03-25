@@ -1,7 +1,6 @@
 package org.example.Json;
 
 import org.example.Entities.Client;
-import org.example.Entities.Cooker;
 import org.example.Entities.Food;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
