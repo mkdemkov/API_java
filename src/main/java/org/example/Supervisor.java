@@ -1,15 +1,19 @@
 package org.example;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class Supervisor {
-    private List<Client> clients;
+    private static ArrayList<Client> clients;
 
-    public void addClient(Client client) {
+    public Supervisor() {
+        clients = new ArrayList<>();
+    }
+
+    public static void addClient(Client client) {
         clients.add(client);
     }
 
     public static void process(Client client) {
-
+        
     }
 }

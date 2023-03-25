@@ -13,11 +13,8 @@ public class Main {
         JsonReader jsonReader = new JsonReader(pathToClients);
         Client[] clients = jsonReader.parseClientsIntoArray();
         for (int i = 0; i < 5; ++i) {
-            Client client = clients[i];
-            executorService.submit(client);
-            supervisor.addClient(client);
+            executorService.submit(clients[i]);
         }
-
         executorService.shutdown();
     }
 }
