@@ -1,5 +1,8 @@
 package org.example.Entities;
 
+/**
+ * Класс, описывающий блюдо из меню
+ */
 public class Food {
     private int id;
     private String name;
@@ -13,8 +16,11 @@ public class Food {
         this.time = time;
     }
 
-    @Override
-    public String toString() {
-        return String.format("id - %s", id);
+    /**
+     * Свойство, возвращающее время готовки определенного блюда
+     * @return время готовки
+     */
+    public int getTime() {
+        return time;
     }
 }

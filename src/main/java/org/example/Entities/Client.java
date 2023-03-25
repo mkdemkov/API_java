@@ -2,6 +2,9 @@ package org.example.Entities;
 
 import java.util.Arrays;
 
+/**
+ * Класс, описывающий посетителя ресторона
+ */
 public class Client implements Runnable {
 
     private String name;
@@ -14,19 +17,34 @@ public class Client implements Runnable {
         this.order = order;
     }
 
+    /**
+     * Переопределение toString для удобства вывода в консоль
+     * @return строка для вывода
+     */
     @Override
     public String toString() {
         return String.format("Имя - %s, деньги - %d, заказ - %s", name, money, Arrays.toString(order));
     }
 
+    /**
+     * Свойство, просто возвращающее заказ клиента
+     * @return массив idшников
+     */
     public int[] getOrder() {
         return order;
     }
 
+    /**
+     * Свойство, возвращающее имя клиента
+     * @return имя клиента
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * Необходимый для работы соккета метод
+     */
     public void run() {
         Supervisor.addClient(this); // вызов функции управляющей сущности
         Supervisor.process(this);

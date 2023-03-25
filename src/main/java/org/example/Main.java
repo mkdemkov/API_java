@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 
 public class Main {
     public static void main(String[] args) {
-        ExecutorService executorService = Executors.newFixedThreadPool(5);
+        ExecutorService executorService = Executors.newFixedThreadPool(5); // создаем 5 поток, каждому из которых назначается новый соккет
         String pathToClients = "input/clients.json"; // путь до json с клиентами кафе
         JsonReader jsonReader = new JsonReader(pathToClients);
         Supervisor supervisor = new Supervisor();
