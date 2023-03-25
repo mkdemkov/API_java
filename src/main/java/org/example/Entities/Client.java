@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Entities;
 
 import java.util.Arrays;
 
@@ -19,8 +19,16 @@ public class Client implements Runnable {
         return String.format("Имя - %s, деньги - %d, заказ - %s", name, money, Arrays.toString(order));
     }
 
+    public int[] getOrder() {
+        return order;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public void run() {
         Supervisor.addClient(this); // вызов функции управляющей сущности
-
+        Supervisor.process(this);
     }
 }
